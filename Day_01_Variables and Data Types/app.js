@@ -39,5 +39,5 @@ console.log(x); // output 20
 // Task 6
 const a = 5;
 //const a = 10 // error, "a" has already been declared
-a = 10;
-console.log(a); // error, Assignment to constant variable.
+// a = 10; // error, Assignment to constant variable.
+console.log(a);
