@@ -50,3 +50,7 @@ console.log(10 >= 10); // True
 console.log(5 <= 5); // True
 
 // Task 10
+console.log(10 == 10); // True
+console.log("5" == 5); // True // double Equal to Just Check Value
+console.log(10 === 10); // True
+console.log("10" === 10); // False // Triple Equal to Check Value and Data Type
