@@ -56,12 +56,24 @@ console.log(10 === 10); // True
 console.log("10" === 10); // False // Triple Equal to Check Value and Data Type
 
 //  Activity 4: Logical Operators
-// Task 11
-// And
+// Task 11 // And
 console.log(10 > 5 && 5 < 10); // True
 console.log(10 > 5 && 5 > 10); // False
-// OR
+// Task 12 OR
 console.log(10 > 5 || 5 < 10); // True
 console.log(10 > 5 || 5 > 10); // True
-// ! Not
+// Task 13  ! Not
 console.log(!(10 > 5)); // False
+
+// Activity 5 Ternary Operator
+// Task 14
+function checkNumber(num) {
+  const result = num >= 0 ? "Positive" : "Negative";
+  console.log(`The number ${num} is ${result}`);
+}
+
+// Test the function
+checkNumber(5); // Output: The number 5 is Positive
+checkNumber(-3); // Output: The number -3 is Negative
+checkNumber(0); // Output: The number 0 is Positive
+checkNumber(19); // Output: The Number 19 is Positive
