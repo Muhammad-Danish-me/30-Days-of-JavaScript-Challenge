@@ -47,7 +47,6 @@ console.log(g > h); // false
 
 // Task 9
 console.log(10 >= 10); // True
-console.log(5 <= 5) // True
+console.log(5 <= 5); // True
 
 // Task 10
-
