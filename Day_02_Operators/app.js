@@ -77,3 +77,4 @@ checkNumber(5); // Output: The number 5 is Positive
 checkNumber(-3); // Output: The number -3 is Negative
 checkNumber(0); // Output: The number 0 is Positive
 checkNumber(19); // Output: The Number 19 is Positive
+checkNumber(-5)
