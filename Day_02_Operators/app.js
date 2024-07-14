@@ -54,3 +54,14 @@ console.log(10 == 10); // True
 console.log("5" == 5); // True // double Equal to Just Check Value
 console.log(10 === 10); // True
 console.log("10" === 10); // False // Triple Equal to Check Value and Data Type
+
+//  Activity 4: Logical Operators
+// Task 11
+// And
+console.log(10 > 5 && 5 < 10); // True
+console.log(10 > 5 && 5 > 10); // False
+// OR
+console.log(10 > 5 || 5 < 10); // True
+console.log(10 > 5 || 5 > 10); // True
+// ! Not
+console.log(!(10 > 5)); // False
