@@ -9,3 +9,10 @@ if (userInp > 0) {
 } else {
   console.log(`The Number ${userInp} is Zero`);
 }
+// Task 2
+let userAge = +prompt("Enter Your Age For Check If you are eligble for Vote");
+if (userAge >= 18) {
+  console.log(`You are Eligible for Vote`);
+} else {
+  console.log(`You are not Eligible for Vote`);
+}
