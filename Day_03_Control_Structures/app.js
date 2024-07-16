@@ -90,6 +90,17 @@ function logGrade(score) {
   const grade = checkGrade(score);
   console.log(`The grade for a score of ${score} is ${grade}`);
 }
-logGrade(85); // Output: The grade for a score of 85 is A
-logGrade(65); // Output: The grade for a score of 85 is B
-logGrade(55); // Output: The grade for a score of 85 is C
+// logGrade(65); // Output: The grade for a score of 85 is B
+// logGrade(85); // Output: The grade for a score of 85 is A
+// logGrade(55); // Output: The grade for a score of 85 is C
+
+// Activity 4: Conditional (Ternary) Operator
+// Task 6
+function checkEvenOdd(num) {
+  const result = num % 2 === 0 ? "Even" : "Odd";
+  console.log(`The number ${num} is ${result}`);
+}
+checkEvenOdd(10); // Output: The number 10 is Even
+checkEvenOdd(7); // Output: The number 7 is Odd
+checkEvenOdd(22); // Output: The number 22 is Even
+checkEvenOdd(15); // Output: The number 15 is Odd
