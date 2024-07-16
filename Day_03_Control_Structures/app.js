@@ -71,3 +71,25 @@ function checkDay(day) {
 // checkDay(5);
 
 // Task 5
+// let score = +prompt("Enter your Score");
+function checkGrade(score) {
+  switch (true) {
+    case score >= 70:
+      return "A";
+    case score >= 60:
+      return "B";
+    case score >= 50:
+      return "C";
+    case score >= 40:
+      return "D";
+    default:
+      return "F";
+  }
+}
+function logGrade(score) {
+  const grade = checkGrade(score);
+  console.log(`The grade for a score of ${score} is ${grade}`);
+}
+logGrade(85); // Output: The grade for a score of 85 is A
+logGrade(65); // Output: The grade for a score of 85 is B
+logGrade(55); // Output: The grade for a score of 85 is C
