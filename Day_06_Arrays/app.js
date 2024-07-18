@@ -26,3 +26,6 @@ console.log("Shift", numbers);
 // Task 6
 numbers.unshift(1);
 console.log("Unshift", numbers);
+
+// Activity 3: Array Methods (Intermediate)
+// Task 7
